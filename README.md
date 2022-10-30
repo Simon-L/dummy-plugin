@@ -28,6 +28,11 @@ and use the sed commands above for the cpp file. Oh no, plugin.cpp and plugin.hp
 
 ![](https://nextcould.roselove.pink/s/wsG9LS5f33YqcBd/preview)
 
+## Automated Github actions build
+
+Take a look at `.github/workflows/build-plugin.yml`
+For Nightly, you need to create the Nightly tag, create a release and upload a random non empty file first, then it will automatically build and update after each push.
+
 ## License
 
 Panel is copyright © 2022 Jason Corder and Filipe Coelho
